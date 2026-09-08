@@ -6,6 +6,6 @@ public class Main {
         double a = 9.2;
         double b = 1.3;
 
-        System.out.printf("%.1fft = %.1fcm \n%.1fmi = %.1fcm",a, a*ft, b, b*mi);
+        System.out.printf("%.1fft = %.1fcm\n%.1fmi = %.1fcm",a, a*ft, b, b*mi);
     }
 }
