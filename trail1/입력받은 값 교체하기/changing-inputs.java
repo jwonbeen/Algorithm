@@ -7,13 +7,8 @@ public class Main {
         // 변수 선언 및 입력
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int tmp = a;
-
-        // 값 변경
-        a = b;
-        b = tmp;
 
         // 출력
-        System.out.print(a + " " + b);
+        System.out.print(b + " " + a);
     }
 }
