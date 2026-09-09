@@ -8,7 +8,10 @@ public class Main {
         int A = sc.nextInt();
         int B = sc.nextInt();
 
+        // 값 변환
+        int q = A / B, r = A % B;
+        
         // 출력
-        System.out.printf("%d...%d", (A / B), (A % B));
+        System.out.printf("%d...%d", q, r);
     }
 }
