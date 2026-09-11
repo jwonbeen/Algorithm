@@ -8,10 +8,10 @@ public class Main {
         int M = sc.nextInt();
 
         // 출력
-        if (3 <= M && M <=5) System.out.print("Spring");
-        else if (6 <= M && M <= 8) System.out.print("Summer");
-        else if (9 <= M && M <= 11) System.out.print("Fall");
-        else System.out.print("Winter");
+        if (2 >= M || M >= 12) System.out.print("Winter");
+        else if (M <= 5) System.out.print("Spring");
+        else if (M <= 8) System.out.print("Summer");
+        else System.out.print("Fall");
 
     }
 }
