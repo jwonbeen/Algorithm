@@ -11,11 +11,10 @@ public class Main {
         int bE = sc.nextInt();
 
         // 출력
-        if (aM > bM || (aM == bM && aE > bE)) {
-            System.out.print("A");
-        }
-        else {
-            System.out.print("B");
+        if(aM != bM){
+            System.out.println(aM < bM ? "B": "A");
+        }else{
+            System.out.println(aE < bE ? "B": "A");
         }
     }
 }
