@@ -6,8 +6,7 @@ public class Main {
 
         // 변수 선언 및 입력
         int sex = sc.nextInt();
-        int age = sc.nextInt();
-        boolean isAdult = (age >= 19);
+        boolean isAdult = (sc.nextInt() >= 19);
         // 출력
         if (sex == 0 && isAdult) System.out.print("MAN");
         else if (sex == 0) System.out.print("BOY");
