@@ -10,19 +10,12 @@ public class Main {
         int size = 2 * N + 1;
 
         for (int i = 0; i < size; i++) {
-            if (i % 2 == 0) {
-                for (int j = 0; j < size; j++) {
+            for (int j = 0; j < size; j++) {
+                if (i % 2 == 0 || j % 2 == 0) {
                     System.out.print("* ");
                 }
-            }
-            else {
-                for (int j = 0; j < size; j++) {
-                    if (j % 2 == 0) {
-                        System.out.print("* ");
-                    }
-                    else {
-                        System.out.print("  ");
-                    }
+                else {
+                    System.out.print("  ");
                 }
             }
             System.out.println();
