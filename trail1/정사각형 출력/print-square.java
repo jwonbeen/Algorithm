@@ -5,10 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
+        int cnt = 1;
 
         for (int i = 0 ; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                System.out.printf("%d ", ((N * i) + j + 1));
+                System.out.printf("%d ", cnt++);
             }
             System.out.println();
         }
