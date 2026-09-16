@@ -6,9 +6,9 @@ public class Main {
 
         int N = sc.nextInt();
 
-        for (int i = N ; i > 0; i--) {
-            for (int j = N; j > 0; j--) {
-                System.out.printf("(%d,%d) ", i, j);
+        for (int i = 0 ; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                System.out.printf("(%d,%d) ", (N - i), (N - j));
             }
             System.out.println();
         }
