@@ -9,12 +9,12 @@ public class Main {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if (i % 2 == 0) {
-                    System.out.print(++count + " ");
+                    count++;
                 }
                 else {
                     count += 2;
-                    System.out.print(count + " ");
                 }
+                System.out.print(count + " ");
             }
             System.out.println();
         }
