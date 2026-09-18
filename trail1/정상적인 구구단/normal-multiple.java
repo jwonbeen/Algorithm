@@ -8,12 +8,8 @@ public class Main {
 
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= N; j++) {
-                if (j == N) {
-                    System.out.printf("%d * %d = %d", i, j, i * j);
-                }
-                else {
-                    System.out.printf("%d * %d = %d, ", i, j, i * j);
-                }
+                System.out.printf("%d * %d = %d", i, j, i * j);
+                if (j != N) System.out.print(", ");
             }
             System.out.println();
         }
