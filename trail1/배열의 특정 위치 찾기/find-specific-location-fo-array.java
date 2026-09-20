@@ -6,7 +6,6 @@ public class Main {
 
         int sumOf2s = 0;
         int sumOf3s = 0;
-        int cnt = 0;
 
         for (int i = 1; i < 11; i++) {
             int dummy = sc.nextInt();
@@ -15,11 +14,10 @@ public class Main {
             }
             if (i % 3 == 0) {
                 sumOf3s += dummy;
-                cnt++;
             }
         }
 
         System.out.print(sumOf2s + " ");
-        System.out.printf("%.1f", (double)sumOf3s / cnt);
+        System.out.printf("%.1f", (double)sumOf3s / 3);
     }
 }
