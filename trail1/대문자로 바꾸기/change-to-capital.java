@@ -6,8 +6,7 @@ public class Main {
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 3; j++) {
-                char n = sc.next().charAt(0);
-                char upper = (char) (n - 32);
+                char upper = (char) (sc.next().charAt(0) - 32);
                 System.out.print(upper + " ");
             }
             System.out.println();
