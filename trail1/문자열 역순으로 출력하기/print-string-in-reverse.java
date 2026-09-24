@@ -4,16 +4,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String[] arr = new String[20];
+        String[] arr = new String[4];
 
-        int cnt = 0;
-
-        while(sc.hasNext()) {
-            arr[cnt++] = sc.next();
+        for (int i = 0; i < 4; i++) {
+            arr[i] = sc.next();
         }
 
-        for (int i = 0; i < cnt; i++) {
-            System.out.println(arr[cnt - 1 - i]);
+        for (int i = 0; i < 4; i++) {
+            System.out.println(arr[3 - i]);
         }
     }
 }
